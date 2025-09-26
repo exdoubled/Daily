@@ -1,0 +1,78 @@
+# ================================
+# IDE 配置文件（任意深度递归生效）
+# ================================
+
+# JetBrains IDEA
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+
+# VS Code
+**/.vscode/
+**/*.code-workspace
+
+# ================================
+# CMake 构建文件（任意深度递归生效）
+# ================================
+
+# CMake 构建目录（各种变体）
+**/cmake-build-*/
+**/cmake-build/
+**/cmake-build-debug/
+**/cmake-build-release/
+**/build/
+**/build-debug/
+**/build-release/
+**/CMakeFiles/
+
+# CMake 生成的文件
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/install_manifest.txt
+**/compile_commands.json
+**/*.cmake
+# 但保留 CMakeLists.txt
+!**/CMakeLists.txt
+
+# ================================
+# 编译输出文件
+# ================================
+
+# 可执行文件
+**/*.exe
+**/*.out
+**/a.out
+**/a.exe
+
+# 对象文件和库文件
+**/*.o
+**/*.obj
+**/*.so
+**/*.dll
+**/*.dylib
+**/*.a
+**/*.lib
+
+# ================================
+# 其他构建系统
+# ================================
+
+# Ninja
+**/build.ninja
+**/.ninja_deps
+**/.ninja_log
+
+# Makefile
+**/Makefile
+**/*.make
+
+# ================================
+# 系统文件
+# ================================
+
+# macOS
+**/.DS_Store
+
+# Windows
+**/Thumbs.db
