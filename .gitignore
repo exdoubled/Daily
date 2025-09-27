@@ -11,6 +11,7 @@
 # VS Code
 **/.vscode/
 **/*.code-workspace
+**/.devkit/
 
 # ================================
 # CMake 构建文件（任意深度递归生效）
